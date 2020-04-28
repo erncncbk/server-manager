@@ -21,7 +21,7 @@ const contactSchema = new mongoose.Schema(
     phone: {
       type: String,
       trim: true,
-      maxlength: 11,
+      minlength: 11,
     },
     picture: {
       type: String,
